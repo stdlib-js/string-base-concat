@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import concat from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-concat@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-concat/tags). For example,
+
+```javascript
 import concat from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-concat@v0.1.0-esm/index.mjs';
 ```
 
@@ -76,7 +81,7 @@ var out = concat( 'beep', 'boop' );
 <body>
 <script type="module">
 
-import concat from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-concat@v0.1.0-esm/index.mjs';
+import concat from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-concat@esm/index.mjs';
 
 var str = concat( 'beep', 'boop' );
 // returns 'beepboop'
