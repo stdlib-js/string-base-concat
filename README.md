@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import concat from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-concat@deno/mod.js';
+import concat from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-concat@v0.1.1-deno/mod.js';
 ```
 
 #### concat( str1, str2 )
@@ -71,7 +71,7 @@ var out = concat( 'beep', 'boop' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import concat from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-concat@deno/mod.js';
+import concat from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-concat@v0.1.1-deno/mod.js';
 
 var str = concat( 'beep', 'boop' );
 // returns 'beepboop'
