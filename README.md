@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import concat from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-concat@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-concat/tags). For example,
+
+```javascript
 import concat from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-concat@v0.1.1-deno/mod.js';
 ```
 
@@ -71,7 +76,7 @@ var out = concat( 'beep', 'boop' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import concat from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-concat@v0.1.1-deno/mod.js';
+import concat from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-concat@deno/mod.js';
 
 var str = concat( 'beep', 'boop' );
 // returns 'beepboop'
